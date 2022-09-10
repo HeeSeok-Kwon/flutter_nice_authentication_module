@@ -10,6 +10,7 @@ Flutter 나이스 본인인증 연동 코드 (Android only)
 ## 연동방법
 - Spring에서 jsp 파일 웹 호스팅
 - Flutter에서 InAppWebView widget으로 인앱으로 웹 띄우기
+<br />
 
 ## 구조
 ![백엔드-Spring](https://user-images.githubusercontent.com/80610295/189468851-c2859598-cb60-4cc3-9d85-aa191325c8ee.png)

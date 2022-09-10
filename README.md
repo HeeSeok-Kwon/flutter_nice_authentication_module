@@ -7,6 +7,10 @@ Flutter 나이스 본인인증 연동 코드 (Android only)
 - [https://blog.naver.com/rnjs1995/222871328505](https://blog.naver.com/rnjs1995/222871328505)
 <br />
 
+## 연동방법
+- Spring에서 jsp 파일 웹 호스팅
+- Flutter에서 InAppWebView widget으로 인앱으로 웹 띄우기
+
 ## 구조
 ![백엔드-Spring](https://user-images.githubusercontent.com/80610295/189468851-c2859598-cb60-4cc3-9d85-aa191325c8ee.png)
 ![백엔드 - Spring / 프론트엔드 - Flutter](https://user-images.githubusercontent.com/80610295/189468867-41cbae50-8597-4618-8ae5-4b69eb8a79bf.png)

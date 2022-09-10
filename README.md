@@ -35,6 +35,17 @@ FLutter에서 처리해야 할 사항
 
 <br />
 
+## pubsec.yaml
+```
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^5.4.0
+  http: ^0.13.5
+  html: ^0.15.0
+```
+<br />
+
 ## android 수정사항
 - android > build.gradle
 

@@ -138,7 +138,7 @@ class _NiceModulePageState extends State<NiceModulePage> {
               child: InAppWebView(
                 initialUrlRequest:
                   URLRequest(
-                      url: Uri.parse("http://172.30.1.83:8080/login2"),
+                      url: Uri.parse("http://172.30.1.83:8080/login2"), // local ip 주소 + 8080 포트 + spring에서 제공하는 main.jsp 파일 링크
                   ),
                 initialOptions: InAppWebViewGroupOptions(
                     crossPlatform: InAppWebViewOptions(
@@ -160,7 +160,7 @@ class _NiceModulePageState extends State<NiceModulePage> {
                   ),
                 ),
                 onLoadStop: (InAppWebViewController controller, Uri? url) async {
-                  if(url.toString().contains("login2")) {
+                  if(url.toString().contains("login2")) { // 본인인증 시작 url에 포함된 string
                     final _url = url.toString();
                     print("url : $_url");
                     var html = await controller.evaluateJavascript(
@@ -186,7 +186,7 @@ class _NiceModulePageState extends State<NiceModulePage> {
                     print("m = $m");
                     print("encodeData = $encodeData");
 
-                  } else if(url.toString().contains("success")) {
+                  } else if(url.toString().contains("success")) { // 본인인증 성공 시, 이동하는 url에 포함된 string
                     print("url : $url");
                     var html = await controller.evaluateJavascript(
                         source:

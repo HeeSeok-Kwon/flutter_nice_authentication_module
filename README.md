@@ -35,7 +35,7 @@ FLutter에서 처리해야 할 사항
 
 <br />
 
-## pubsec.yaml
+## pubspec.yaml
 ```
 dependencies:
   flutter:

@@ -28,4 +28,4 @@ FLutter에서 처리해야 할 사항
 <br />
 
 ### 예시화면
-![nice 본인인증 팝업창 화면](https://user-images.githubusercontent.com/80610295/189468996-6f00d633-9b3a-44c4-b80f-309a3ee7b832.png)
+![nice 본인인증 팝업창 화면](https://user-images.githubusercontent.com/80610295/189469120-b413aace-b8a4-41f3-9608-914008fc07a5.jpg)

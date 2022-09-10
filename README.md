@@ -33,37 +33,37 @@ FLutter에서 처리해야 할 사항
 ### android 수정사항
 - android > build.gradle
 
-'''
+```
 dependencies {
         classpath 'com.android.tools.build:gradle:7.0.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
-'''
+```
 
 - android > gardle > gradle-wrapper.properties
 
-'''
+```
 ...
 distributionUrl=https\://services.gradle.org/distributions/gradle-7.0.2-all.zip
-'''
+```
 
 - android > app > build.gradle
 
-'''
+```
 defaultConfig {
         ...
         minSdkVersion 19 //flutter.minSdkVersion
         ...
     }
-'''
+```
 
 - android > app > main > AndroidManifest.xml
 
-'''
+```
 <application
         ...
         android:usesCleartextTraffic="true">
-'''
+```
 
 ### flutter doctor -v
 ![flutter doctoer -v 화면](https://user-images.githubusercontent.com/80610295/189469551-fba50008-53f8-44a3-be62-6b9adb5d1f14.png)

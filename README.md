@@ -32,6 +32,7 @@ FLutter에서 처리해야 할 사항
 
 ### android 수정사항
 - android > build.gradle
+
 '''
 dependencies {
         classpath 'com.android.tools.build:gradle:7.0.1'
@@ -40,12 +41,14 @@ dependencies {
 '''
 
 - android > gardle > gradle-wrapper.properties
+
 '''
 ...
 distributionUrl=https\://services.gradle.org/distributions/gradle-7.0.2-all.zip
 '''
 
 - android > app > build.gradle
+
 '''
 defaultConfig {
         ...
@@ -55,6 +58,7 @@ defaultConfig {
 '''
 
 - android > app > main > AndroidManifest.xml
+
 '''
 <application
         ...

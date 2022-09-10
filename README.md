@@ -4,7 +4,8 @@ Flutter 나이스 본인인증 연동 코드 (Android only)
 <br />
 
 ## Detail explanation
-[바로가기](https://blog.naver.com/rnjs1995/222871328505)
+- [https://blog.naver.com/rnjs1995/222871328505](https://blog.naver.com/rnjs1995/222871328505)
+<br />
 
 ## 구조
 ![백엔드-Spring](https://user-images.githubusercontent.com/80610295/189468851-c2859598-cb60-4cc3-9d85-aa191325c8ee.png)
